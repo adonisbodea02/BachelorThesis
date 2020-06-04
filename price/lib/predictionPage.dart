@@ -2,6 +2,8 @@ import 'package:connectivity/connectivity.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:price/TimezoneHelper.dart';
+import 'package:tuple/tuple.dart';
 
 import 'DrawerOnly.dart';
 import 'ServerHelper.dart';
@@ -45,6 +47,7 @@ class PredictionWidget extends StatefulWidget {
 class _PredictionWidgetState extends State<PredictionWidget> {
 
   ServerHelper _server = ServerHelper();
+  TimezoneHelper _timezoneHelper = TimezoneHelper();
   List<String> _rates = <String>["EUR/GBP", "EUR/USD", "GBP/USD"];
   String _rate;
   RaisedButton _getPredictionButton;
@@ -63,8 +66,15 @@ class _PredictionWidgetState extends State<PredictionWidget> {
 
   /// Function which computes the date for tomorrow
   /// return: String, the date in the format Year-Month-Day
-  String getTomorrowDate() {
-    final tomorrowDate = DateTime.now().add((Duration(days: 1)));
+  String getPredictionDate() {
+    Tuple2<int, int> time = _timezoneHelper.convertLocalToCET();
+    DateTime tomorrowDate;
+    if(time.item1 >= 16 && time.item2 >= 30) {
+      tomorrowDate = DateTime.now().add((Duration(days: 1)));
+    }
+    else{
+      tomorrowDate = DateTime.now();
+    }
     final formatter = new DateFormat('yyyy-MM-dd');
     String formattedDate = formatter.format(tomorrowDate);
     return formattedDate;
@@ -73,6 +83,7 @@ class _PredictionWidgetState extends State<PredictionWidget> {
   /// The function which collects the input from the user and retrieves the prediction for the specified exchange rate
   /// This function is bound to the getPredictionButton button
   getPrediction() async{
+    //_timezoneHelper.convertLocalToDetroit();
     var connectivityResult = await (Connectivity().checkConnectivity());
     // check for network connectivity
     if (!(connectivityResult == ConnectivityResult.mobile || connectivityResult == ConnectivityResult.wifi)){
@@ -84,8 +95,17 @@ class _PredictionWidgetState extends State<PredictionWidget> {
       String message = checkInput();
       if(message.isEmpty){
         // if there is no problem with the input, make the call to the server
-      double result = await _server.getPrediction(_rate.substring(0,3),_rate.substring(4,7), DateTime.now().add(Duration(days: 1)));
-      _predictionController.text = result.toStringAsPrecision(6);}
+        Tuple2<int, int> time = _timezoneHelper.convertLocalToCET();
+        double result;
+        if(time.item1 >= 16 && time.item2 >= 30) {
+          result = await _server.getPrediction(_rate.substring(0, 3), _rate.substring(4, 7),
+              DateTime.now().add(Duration(days: 1)));
+        }
+        else{
+          result = await _server.getPrediction(_rate.substring(0, 3), _rate.substring(4, 7),
+              DateTime.now());
+        }
+          _predictionController.text = result.toStringAsPrecision(6);}
       else{
         // display error message to the user explaining where the mistakes were
         showAlertDialog("Oops, you did something wrong", message);
@@ -145,7 +165,7 @@ class _PredictionWidgetState extends State<PredictionWidget> {
             children: <Widget>[
               Padding(
                 padding: const EdgeInsets.all(20.0),
-                child: new Text("Predict exchange rates for " + getTomorrowDate(),
+                child: new Text("Predict exchange rates for " + getPredictionDate(),
                   style: new TextStyle(
                     fontSize: 20.0,
                   ),
@@ -174,6 +194,17 @@ class _PredictionWidgetState extends State<PredictionWidget> {
                 child: Container(
                     width: 235.0,
                     child: _predictionTextField),
+              ),
+              Align(
+                alignment: Alignment.bottomRight,
+                child: IconButton(
+                  icon: Icon(Icons.info),
+                  color: Colors.blue,
+                  onPressed: () {showAlertDialog("Useful information",
+                      "The rates are updated each day around 16:30 CET by the European Central Bank. "
+                          "Therefore, until then, each prediction is made for the current day, "
+                          "while after 16:30 CET, each forecast is made for tomorrow.");},
+                ),
               ),
             ],
           )

@@ -24,6 +24,8 @@ dependencies:
   fluttertoast: ^3.1.3
   intl: ^0.16.1
   dcdg: ^2.0.1
+  timezone: ^0.5.7
+  tuple: ^1.0.3
 
   cupertino_icons: ^0.1.2
   sqflite: '>=0.8.5'
@@ -47,6 +49,7 @@ flutter:
 
   assets:
     - assets/currencies.json
+    - packages/timezone/data/2020a.tzf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
