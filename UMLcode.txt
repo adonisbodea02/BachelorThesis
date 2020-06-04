@@ -1,0 +1,19 @@
+@startuml
+actor User
+boundary PRICE
+control PredictionServer
+database SQLAlchemy
+control ExchangeRatesAPI
+User -> PRICE: presses the button of the desired exchange rate
+PRICE -> PredictionServer: request the prediction for the specified exchange rate
+PredictionServer -> SQLAlchemy: searches for the prediction in the DB
+SQLAlchemy -> PredictionServer: returns result
+alt prediction does not exist in the DB
+PredictionServer -> ExchangeRatesAPI: requests past values for the specified exchange rate to make the prediction
+ExchangeRatesAPI --> PredictionServer: returns the asked values
+PredictionServer -> PredictionServer: computes the prediction
+PredictionServer -> SQLAlchemy: inserts the prediction in the DB
+end
+PredictionServer --> PRICE: returns the asked prediction
+PRICE -> User: displays the prediction
+@enduml

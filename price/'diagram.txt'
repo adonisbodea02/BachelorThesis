@@ -1,0 +1,153 @@
+@startuml
+set namespaceSeparator ::
+
+class "price::DrawerOnly.dart::DrawerOnly" {
+  +Widget build()
+}
+
+"flutter::src::widgets::framework.dart::StatelessWidget" <|-- "price::DrawerOnly.dart::DrawerOnly"
+
+class "price::main.dart::MyApp" {
+  +Widget build()
+}
+
+"flutter::src::widgets::framework.dart::StatelessWidget" <|-- "price::main.dart::MyApp"
+
+class "price::main.dart::MyHomePage" {
+  +String title
+  +_MyHomePageState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "price::main.dart::MyHomePage"
+
+class "price::main.dart::_MyHomePageState" {
+  +Widget build()
+}
+
+"flutter::src::widgets::framework.dart::State<T>" <|-- "price::main.dart::_MyHomePageState"
+
+class "price::main.dart::CurrentWidget" {
+  +_CurrentWidgetState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "price::main.dart::CurrentWidget"
+
+class "price::main.dart::_CurrentWidgetState" {
+  +ServerHelper server
+  -List<String> _currencies
+  -String _currentLocalCurrency
+  -String _currentForeignCurrency
+  -TextEditingController _sumController
+  -TextField _sumText
+  -RaisedButton _convertButton
+  -TextEditingController _resultController
+  -TextField _resultText
+  +dynamic getCurrencyList()
+  +dynamic isNumeric()
+  +String checkInput()
+  +dynamic convert()
+  +void showAlertDialog()
+  +void initState()
+  +List getDropDownMenuItems()
+  +Widget build()
+}
+
+"price::main.dart::_CurrentWidgetState" o-- "price::ServerHelper.dart::ServerHelper"
+"price::main.dart::_CurrentWidgetState" o-- "flutter::src::widgets::editable_text.dart::TextEditingController"
+"price::main.dart::_CurrentWidgetState" o-- "flutter::src::material::text_field.dart::TextField"
+"price::main.dart::_CurrentWidgetState" o-- "flutter::src::material::raised_button.dart::RaisedButton"
+"flutter::src::widgets::framework.dart::State<T>" <|-- "price::main.dart::_CurrentWidgetState"
+
+class "price::pastPage.dart::PastPage" {
+  +String title
+  +_PastPageState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "price::pastPage.dart::PastPage"
+
+class "price::pastPage.dart::_PastPageState" {
+  +Widget build()
+}
+
+"flutter::src::widgets::framework.dart::State<T>" <|-- "price::pastPage.dart::_PastPageState"
+
+class "price::pastPage.dart::PastWidget" {
+  +_PastWidgetState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "price::pastPage.dart::PastWidget"
+
+class "price::pastPage.dart::_PastWidgetState" {
+  +ServerHelper server
+  -List<String> _currencies
+  -String _currentLocalCurrency
+  -String _currentForeignCurrency
+  +DateTime pastDate
+  +DateFormat formatter
+  +TextEditingController pastDateController
+  +TextField pastDateTextField
+  -RaisedButton _getPastRateButton
+  -TextEditingController _resultController
+  -TextField _resultTextField
+  +dynamic getCurrencyList()
+  +dynamic isNumeric()
+  +String checkInput()
+  +dynamic getPastRate()
+  +void showAlertDialog()
+  +void initState()
+  +List getDropDownMenuItems()
+  +Widget build()
+}
+
+"price::pastPage.dart::_PastWidgetState" o-- "price::ServerHelper.dart::ServerHelper"
+"price::pastPage.dart::_PastWidgetState" o-- "intl::intl.dart::DateFormat"
+"price::pastPage.dart::_PastWidgetState" o-- "flutter::src::widgets::editable_text.dart::TextEditingController"
+"price::pastPage.dart::_PastWidgetState" o-- "flutter::src::material::text_field.dart::TextField"
+"price::pastPage.dart::_PastWidgetState" o-- "flutter::src::material::raised_button.dart::RaisedButton"
+"flutter::src::widgets::framework.dart::State<T>" <|-- "price::pastPage.dart::_PastWidgetState"
+
+class "price::predictionPage.dart::PredictionPage" {
+  +String title
+  +PredictionPageState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "price::predictionPage.dart::PredictionPage"
+
+class "price::predictionPage.dart::PredictionPageState" {
+  +ServerHelper server
+  -RaisedButton _rateEURGBPButton
+  -TextEditingController _predictionEURGBPController
+  -TextField _predictionEURGBPTextField
+  -RaisedButton _rateEURUSDButton
+  -TextEditingController _predictionEURUSDController
+  -TextField _predictionEURUSDTextField
+  -RaisedButton _rateGBPUSDButton
+  -TextEditingController _predictionGBPUSDController
+  -TextField _predictionGBPUSDTextField
+  +String getTomorrowDate()
+  +dynamic predictEURGBP()
+  +dynamic predictEURUSD()
+  +dynamic predictGBPUSD()
+  +void initState()
+  +Widget build()
+}
+
+"price::predictionPage.dart::PredictionPageState" o-- "price::ServerHelper.dart::ServerHelper"
+"price::predictionPage.dart::PredictionPageState" o-- "flutter::src::material::raised_button.dart::RaisedButton"
+"price::predictionPage.dart::PredictionPageState" o-- "flutter::src::widgets::editable_text.dart::TextEditingController"
+"price::predictionPage.dart::PredictionPageState" o-- "flutter::src::material::text_field.dart::TextField"
+"flutter::src::widgets::framework.dart::State<T>" <|-- "price::predictionPage.dart::PredictionPageState"
+
+class "price::ServerHelper.dart::ServerHelper" {
+  {static} -ServerHelper _serverHelper
+  +String url
+  +String urlPrediction
+  +Future getPrediction()
+  +Future getCurrentRate()
+  +Future getPastRate()
+}
+
+"price::ServerHelper.dart::ServerHelper" o-- "price::ServerHelper.dart::ServerHelper"
+
+
+@enduml
