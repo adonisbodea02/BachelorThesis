@@ -2,7 +2,7 @@ from flask import Flask
 from flask_restful import Api
 from flask import jsonify
 from tensorflow import keras
-from datetime import timedelta, date
+from datetime import timedelta
 from datetime import datetime
 import requests
 from numpy import array
@@ -86,7 +86,7 @@ def get_weekday_n_days_ago(end_date, n):
     :param end_date: Date, the date from where to start counting backwards
     :param n: Integer, the number of weekdays to look back
     :return: Date, the weekday which was n weekdays ago
-    Constraint: n must be less than 30
+    Constraint: n must be between 1 and 20 inclusively
     """
     prev_days = [end_date - timedelta(days=i) for i in range(1, 40)]
     prev_days = [d for d in prev_days if d.weekday() < 5]
@@ -105,6 +105,7 @@ def get_data(end_date, n, local, foreign):
     :param local: String, the local currency
     :param foreign: String, the foreign currency
     :return: List of Floats
+    Constraint: n must be between 1 and 20 inclusively
     """
     URL = "https://api.exchangeratesapi.io/history"
     PARAMS = {'start_at': str(get_weekday_n_days_ago(end_date, n)),

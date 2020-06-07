@@ -66,7 +66,6 @@ class _PastWidgetState extends State<PastWidget> {
     setState(() {
       res.forEach((k,v) => _currencies.add(k + " (" + v + ")"));
     });
-    print(res);
   }
 
   /// Function which validates the input from the user

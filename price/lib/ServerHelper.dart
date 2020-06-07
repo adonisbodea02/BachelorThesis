@@ -7,7 +7,7 @@ class ServerHelper{
 
   static ServerHelper _serverHelper;
   String _url = "https://api.exchangeratesapi.io";
-  String _urlPrediction = "http://10.0.2.2:5000/prediction/";
+  String _urlPrediction = "http://134.122.66.105:5001/prediction/";
 
   ServerHelper._createInstance();
 

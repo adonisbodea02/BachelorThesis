@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47909094-e33c-4d6f-ad94-7b5fbe5ad19b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapper/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassDiagramMobileApplication.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConvertCurrenciesSequenceDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ConvertCurrenciesSequenceDiagram.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../price/lib/predictionPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../price/lib/predictionPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../price/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../price/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../price/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../price/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictions.db" beforeDir="false" afterPath="$PROJECT_DIR$/predictions.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PredictExchangeRatesSequenceDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/../PredictExchangeRatesSequenceDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeePastExchangeRatesSequenceDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/../SeePastExchangeRatesSequenceDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobileImplementation.png" beforeDir="false" afterPath="$PROJECT_DIR$/../mobileImplementation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelImpl.png" beforeDir="false" afterPath="$PROJECT_DIR$/../modelImpl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../price/'diagram.txt'" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../price/lib/ServerHelper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../price/lib/ServerHelper.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../routeImpl.png" beforeDir="false" afterPath="$PROJECT_DIR$/../routeImpl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapper/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapper/stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapper/stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../useCaseDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/../useCaseDiagram.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,20 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LSTM_VANILLA_EUR_USD_UNIVARIATE.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="22" selection-end-line="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3995">
-              <caret line="235" selection-start-line="235" selection-end-line="235" />
+            <state relative-caret-position="1173">
+              <caret line="108" column="7" lean-forward="true" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -38,12 +41,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNN_EUR_GBP_MULTIVARIATE.py">
+        <entry file="file://$PROJECT_DIR$/test_server_helper_functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            <state relative-caret-position="119">
+              <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/measures_extended.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12546">
-              <caret line="738" column="5" selection-start-line="738" selection-start-column="5" selection-end-line="738" selection-end-column="5" />
+            <state relative-caret-position="13566">
+              <caret line="798" column="39" selection-start-line="798" selection-start-column="19" selection-end-line="798" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -85,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CNN_EUR_GBP_UNIVARIATE.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="238">
+              <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="60" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -143,7 +146,6 @@
       <find>average test loss</find>
       <find>UNIV</find>
       <find>split_se</find>
-      <find>lstm</find>
       <find>Average Test Loss</find>
       <find>Test Loss</find>
       <find>Test loss</find>
@@ -161,6 +163,12 @@
       <find>tanh</find>
       <find>test loss</find>
       <find>timedel</find>
+      <find>FFNN</find>
+      <find>lstm</find>
+      <find>lstm v</find>
+      <find>bi</find>
+      <find>sigmoid</find>
+      <find>gbp-usd</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -210,14 +218,17 @@
         <option value="$PROJECT_DIR$/LSTM_VANILLA_EUR_GBP_UNIVARIATE.py" />
         <option value="$PROJECT_DIR$/LSTM_VANILLA_EUR_USD_UNIVARIATE.py" />
         <option value="$PROJECT_DIR$/LSTM_VANILLA_GBP_USD_UNIVARIATE.py" />
-        <option value="$PROJECT_DIR$/measures_extended.txt" />
         <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/measures_extended.txt" />
+        <option value="$PROJECT_DIR$/test_server.py" />
+        <option value="$PROJECT_DIR$/test_server_database.py" />
+        <option value="$PROJECT_DIR$/test_server_helper_functions.py" />
         <option value="$PROJECT_DIR$/server.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-12" />
+    <option name="x" value="421" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
   </component>
@@ -253,7 +264,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Plots" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scrapper" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -270,29 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.server">
-    <configuration name="CNN_EUR_GBP_UNIVARIATE" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Models" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN_EUR_GBP_UNIVARIATE.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="LSTM_VANILLA_EUR_USD_UNIVARIATE" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Models" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -381,13 +370,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_server_helper_functions.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Models" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_server_helper_functions.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_server_helper_functions.py" />
         <item itemvalue="Python.server" />
         <item itemvalue="Python.utils" />
         <item itemvalue="Python.LSTM_VANILLA_GBP_USD_UNIVARIATE" />
         <item itemvalue="Python.LSTM_VANILLA_EUR_USD_UNIVARIATE" />
-        <item itemvalue="Python.CNN_EUR_GBP_UNIVARIATE" />
       </list>
     </recent_temporary>
   </component>
@@ -407,12 +412,47 @@
       <workItem from="1591183171900" duration="10976000" />
       <workItem from="1591263931986" duration="907000" />
       <workItem from="1591269421728" duration="1654000" />
-      <workItem from="1591291383040" duration="612000" />
+      <workItem from="1591291383040" duration="1198000" />
+      <workItem from="1591358919947" duration="15712000" />
+      <workItem from="1591441951207" duration="3554000" />
+      <workItem from="1591525649984" duration="14677000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_test_server_helper_functions_py - 2020.06.07 at 17h 01m 28s.xml">
+      <configuration name="pytest in test_server_helper_functions.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_server_helper_functions_py - 2020.06.07 at 17h 02m 54s.xml">
+      <configuration name="pytest in test_server_helper_functions.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_server_helper_functions_py - 2020.06.07 at 17h 04m 18s.xml">
+      <configuration name="pytest in test_server_helper_functions.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_server_helper_functions_py - 2020.06.07 at 17h 05m 43s.xml">
+      <configuration name="pytest in test_server_helper_functions.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_server_helper_functions_py - 2020.06.07 at 17h 15m 38s.xml">
+      <configuration name="pytest in test_server_helper_functions.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_server_helper_functions_py - 2020.06.07 at 17h 16m 38s.xml">
+      <configuration name="pytest in test_server_helper_functions.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_server_helper_functions_py - 2020.06.07 at 17h 20m 46s.xml">
+      <configuration name="pytest in test_server_helper_functions.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_server_helper_functions_py - 2020.06.07 at 17h 22m 51s.xml">
+      <configuration name="pytest in test_server_helper_functions.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_server_helper_functions_py - 2020.06.07 at 17h 24m 52s.xml">
+      <configuration name="pytest in test_server_helper_functions.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_server_helper_functions_py - 2020.06.07 at 17h 33m 30s.xml">
+      <configuration name="pytest in test_server_helper_functions.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268599000" />
+    <option name="totallyTimeSpent" value="303128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,21 +467,21 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20291026" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18593371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25886524" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.77687955" visible="true" weight="0.17730497" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995958" weight="0.69503546" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.15070923" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.22312045" side_tool="true" visible="true" weight="0.17730497" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.29432625" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -466,9 +506,10 @@
     <SUITE FILE_PATH="coverage/Models$ConvLSTM_EUR_GBP_UNIVARIATE.coverage" NAME="ConvLSTM_EUR_GBP_UNIVARIATE Coverage Results" MODIFIED="1588890370950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Models$FFN_EU_GBP_MULTIVARIATE.coverage" NAME="FFN_EU_GBP_MULTIVARIATE Coverage Results" MODIFIED="1588098693982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Models$LSTM_STACKED_EU_GBP_UNIVARIATE.coverage" NAME="LSTM_STACKED_EU_GBP_UNIVARIATE Coverage Results" MODIFIED="1588255422654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Models$server.coverage" NAME="server Coverage Results" MODIFIED="1591203164136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Models$server.coverage" NAME="server Coverage Results" MODIFIED="1591539728709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Models$ConvLSTM_EUR_GBP_MULTIVARIATE.coverage" NAME="ConvLSTM_EUR_GBP_MULTIVARIATE Coverage Results" MODIFIED="1588962375203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Models$LSTM_STACKED_EUR_GBP_UNIVARIATE.coverage" NAME="LSTM_STACKED_EUR_GBP_UNIVARIATE Coverage Results" MODIFIED="1588883343975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Models$pytest_in_test_server_py.coverage" NAME="pytest in test_server_helper_functions.py Coverage Results" MODIFIED="1591540402743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Models$FFN_EU_GBP_UNIVARIATE.coverage" NAME="FFN_EU_GBP_UNIVARIATE Coverage Results" MODIFIED="1588174938118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Models$LSTM_VANILLA_EUR_GBP_MULTIVARIATE.coverage" NAME="LSTM_VANILLA_EUR_GBP_MULTIVARIATE Coverage Results" MODIFIED="1588927894313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Models$FFN_EUR_GBP_UNIVARIATE.coverage" NAME="FFN_EUR_GBP_UNIVARIATE Coverage Results" MODIFIED="1589660490752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -605,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/measures.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5525">
-          <caret line="325" selection-start-line="325" selection-end-line="325" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/split_sequence.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -711,6 +745,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/measures.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5525">
+          <caret line="325" selection-start-line="325" selection-end-line="325" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CNN_EUR_GBP_MULTIVARIATE.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -743,15 +784,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/measures_extended.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12546">
-          <caret line="738" column="5" selection-start-line="738" selection-start-column="5" selection-end-line="738" selection-end-column="5" />
+        <state relative-caret-position="13566">
+          <caret line="798" column="39" selection-start-line="798" selection-start-column="19" selection-end-line="798" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CNN_EUR_GBP_UNIVARIATE.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="238">
+          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="60" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -785,10 +826,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_server_database.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_server_helper_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3995">
-          <caret line="235" selection-start-line="235" selection-end-line="235" />
+        <state relative-caret-position="1173">
+          <caret line="108" column="7" lean-forward="true" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
