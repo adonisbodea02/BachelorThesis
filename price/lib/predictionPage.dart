@@ -203,7 +203,7 @@ class _PredictionWidgetState extends State<PredictionWidget> {
                   onPressed: () {showAlertDialog("Useful information",
                       "The rates are updated each day around 16:30 CET by the European Central Bank. "
                           "Therefore, until then, each prediction is made for the current day, "
-                          "while after 16:30 CET, each forecast is made for tomorrow.");},
+                          "while after 16:30 CET, each forecast is made for the next day.");},
                 ),
               ),
             ],

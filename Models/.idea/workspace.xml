@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47909094-e33c-4d6f-ad94-7b5fbe5ad19b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../scrapper/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassDiagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassDiagramMobileApplication.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConvertCurrenciesSequenceDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ConvertCurrenciesSequenceDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AfterPressingGetPredictionPast.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AfterPressingGetPredictionPast.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BeforePressingGetPredictionPast.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BeforePressingGetPredictionPast.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/predictions.db" beforeDir="false" afterPath="$PROJECT_DIR$/predictions.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PredictExchangeRatesSequenceDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/../PredictExchangeRatesSequenceDiagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeePastExchangeRatesSequenceDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/../SeePastExchangeRatesSequenceDiagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobileImplementation.png" beforeDir="false" afterPath="$PROJECT_DIR$/../mobileImplementation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modelImpl.png" beforeDir="false" afterPath="$PROJECT_DIR$/../modelImpl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../price/'diagram.txt'" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../price/lib/ServerHelper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../price/lib/ServerHelper.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../routeImpl.png" beforeDir="false" afterPath="$PROJECT_DIR$/../routeImpl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeePastPredictionsDefault.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../price/lib/predictionPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../price/lib/predictionPage.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scrapper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapper/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scrapper/stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapper/stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../useCaseDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/../useCaseDiagram.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="108" column="7" lean-forward="true" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
+            <state relative-caret-position="-697">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -43,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_server_helper_functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+            <state relative-caret-position="1139">
+              <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -79,8 +71,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/measures_extended.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13566">
-              <caret line="798" column="39" selection-start-line="798" selection-start-column="19" selection-end-line="798" selection-end-column="39" />
+            <state relative-caret-position="5712">
+              <caret line="336" column="25" selection-start-line="336" selection-start-column="25" selection-end-line="336" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ConvLSTM_EUR_GBP_UNIVARIATE.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="43" column="53" lean-forward="true" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,6 +173,8 @@
       <find>bi</find>
       <find>sigmoid</find>
       <find>gbp-usd</find>
+      <find>USD</find>
+      <find>Oil</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -227,9 +233,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="421" />
-    <option name="width" value="981" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="762" />
+    <option name="width" value="1170" />
     <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -244,6 +250,11 @@
             <path>
               <item name="Models" type="b2602c69:ProjectViewProjectNode" />
               <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Plots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Models" type="b2602c69:ProjectViewProjectNode" />
@@ -264,7 +275,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scrapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -281,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.LSTM_VANILLA_EUR_USD_UNIVARIATE">
     <configuration name="LSTM_VANILLA_EUR_USD_UNIVARIATE" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Models" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -416,6 +427,13 @@
       <workItem from="1591358919947" duration="15712000" />
       <workItem from="1591441951207" duration="3554000" />
       <workItem from="1591525649984" duration="14677000" />
+      <workItem from="1591710867498" duration="5721000" />
+      <workItem from="1591788108423" duration="2431000" />
+      <workItem from="1591975943476" duration="2422000" />
+      <workItem from="1593251930583" duration="596000" />
+      <workItem from="1593334321760" duration="1168000" />
+      <workItem from="1593362605668" duration="598000" />
+      <workItem from="1593410386077" duration="2097000" />
     </task>
     <servers />
   </component>
@@ -452,7 +470,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303128000" />
+    <option name="totallyTimeSpent" value="318161000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,10 +482,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="508" y="0" width="780" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18593371" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20498616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -480,7 +498,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.22312045" side_tool="true" visible="true" weight="0.17730497" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.22312045" side_tool="true" visible="true" weight="0.17594256" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.29432625" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -653,16 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConvLSTM_EUR_GBP_UNIVARIATE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="992">
-          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="88" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ConvLSTM_EUR_GBP_MULTIVARIATE.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -762,6 +770,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_server_database.py" />
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-697">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_server_helper_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
@@ -784,8 +813,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/measures_extended.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13566">
-          <caret line="798" column="39" selection-start-line="798" selection-start-column="19" selection-end-line="798" selection-end-column="39" />
+        <state relative-caret-position="5712">
+          <caret line="336" column="25" selection-start-line="336" selection-start-column="25" selection-end-line="336" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -826,25 +855,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_server_database.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_server_helper_functions.py">
+    <entry file="file://$PROJECT_DIR$/ConvLSTM_EUR_GBP_UNIVARIATE.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+        <state relative-caret-position="261">
+          <caret line="43" column="53" lean-forward="true" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="108" column="7" lean-forward="true" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

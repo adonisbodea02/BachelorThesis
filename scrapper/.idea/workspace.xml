@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c784935-6c5a-4c5a-b4bb-644741ad480f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassDiagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassDiagramMobileApplication.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConvertCurrenciesSequenceDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ConvertCurrenciesSequenceDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AfterPressingGetPredictionPast.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AfterPressingGetPredictionPast.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BeforePressingGetPredictionPast.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BeforePressingGetPredictionPast.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Models/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Models/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Models/predictions.db" beforeDir="false" afterPath="$PROJECT_DIR$/../Models/predictions.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Models/SourceCode.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Models/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Models/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PredictExchangeRatesSequenceDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/../PredictExchangeRatesSequenceDiagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeePastExchangeRatesSequenceDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/../SeePastExchangeRatesSequenceDiagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobileImplementation.png" beforeDir="false" afterPath="$PROJECT_DIR$/../mobileImplementation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modelImpl.png" beforeDir="false" afterPath="$PROJECT_DIR$/../modelImpl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../price/'diagram.txt'" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../price/lib/ServerHelper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../price/lib/ServerHelper.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../routeImpl.png" beforeDir="false" afterPath="$PROJECT_DIR$/../routeImpl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeePastPredictionsDefault.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../price/lib/predictionPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../price/lib/predictionPage.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../useCaseDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/../useCaseDiagram.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stats.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -71,7 +63,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="421" />
+    <option name="x" value="948" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
   </component>
@@ -102,7 +94,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Models" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -162,22 +154,25 @@
       <workItem from="1591359354948" duration="9829000" />
       <workItem from="1591441951389" duration="1992000" />
       <workItem from="1591525650134" duration="595000" />
+      <workItem from="1591710868089" duration="2854000" />
+      <workItem from="1591788075622" duration="629000" />
+      <workItem from="1591975943258" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23314000" />
+    <option name="totallyTimeSpent" value="27395000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="281" y="0" width="654" height="688" extended-state="1" />
+    <frame x="632" y="0" width="654" height="688" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.082214765" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35067114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32374102" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32374102" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -199,13 +194,13 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/scrapper$stats.coverage" NAME="stats Coverage Results" MODIFIED="1591443747143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scrapper$stats.coverage" NAME="stats Coverage Results" MODIFIED="1591735730847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/stats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
